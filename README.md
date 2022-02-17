@@ -1,1 +1,3 @@
 # DesafioManfrin
+
+node .\main.js
