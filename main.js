@@ -56,14 +56,23 @@ const listTwo = [
         grade: 9
     }
 ];
+/*listOne.map(getAverage);
 
-//console.log (listOne[0].name)
+function getAverage(number){
+    return [number.grade];
+};
 
-//const listAvg = listOne.map( (s, i) => ({name : s, average : listOne[i].grade}) );
+console.log(average);*/
 
-let student = listOne.find(listOne => listOne.name === 'Thiago');
+for(let i = 0; i < listOne.length; i++){
+    console.log(listOne[i].name);
+};
 
-console.log(student)
+for(let i = 0; i < listOne.length; i++){
+    console.log(listOne[i].grade);
+};
 
-
+for(let i = 0; i < listTwo.length; i++){
+    console.log(listTwo[i].grade);
+};
 
