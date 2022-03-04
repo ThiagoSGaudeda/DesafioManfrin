@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    height: 800px;
+    width: 800px;
+}
+
+.box1{
+    flex: 1 1 500px;
+    height: 200px;
+    background: black;
+    align-self: flex-start;
+}
+
+.box2{
+    flex: 1 1 300px;
+    height:200px;
+    background: fuchsia;
+    align-self: flex-start;
+}
+.box3{
+    height: 400px;
+    width: 300px;
+    background: red;
+}
+
+.boxwrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.box4{
+    height: 200px;
+    width: 500px;
+    background: blueviolet
+}
+.box5{
+    height: 200px;
+    width: 500px;
+    background: yellowgreen;
+}
+
+.box6{
+    height: 200px;
+    width: 200px;
+    background: rgb(50, 200, 180);
+}
+
+.box7{
+    height: 200px;
+    width: 400px;
+    background: rgb(50, 99, 205);
+}
+.box8{
+    height: 200px;
+    width: 200px;
+    background: rgb(50, 205, 171);
+}
